@@ -1,0 +1,53 @@
+#header{
+    height: 48px;
+    // margin:  0 0 0;
+    padding: 0 0 10px 0;
+    border-bottom: solid 1px #919191;  
+    background:url('../img/regist/logo_new.jpg') no-repeat left center;
+}
+.main{
+
+    .main_left{
+        width: 465px;
+        height: 500px;
+        float: left;
+       margin: 0 0 0 130px;
+       background:url('../img/regist/login_newlogo.jpg') no-repeat left center;
+    }
+    .main_right{
+        float:left;
+        width: 415px;
+        margin-top:50px;
+
+        h1{
+             height: 35px;
+             width: 415px;
+             line-height: 35px;
+            margin: 0 100px 0 0;
+            font-size: 20px;
+            color: #a2a2a2;
+            font-weight: bolder;
+            border-bottom: 2px solid #b81e20;
+        }
+       h1 span{
+        display:inline-block;
+        height: 35px;
+        line-height: 35px;
+        font-size: 14px;
+        float: right;
+        a{
+          color: #b52024;
+          margin: 0 0 0 3px;  
+        }  
+       }
+        .form{
+            margin-top:20px;
+            a{
+              display:block;
+              width: 415px;
+            }
+        }
+
+    }
+}
+

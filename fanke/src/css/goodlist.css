@@ -1,0 +1,353 @@
+/* 
+* @Author: Marte
+* @Date:   2018-11-27 10:08:05
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-12-02 21:29:44
+*/
+body{
+    font-size: 12px;
+    font-family: "宋体";
+}
+
+/*隐藏购物车区域*/
+
+.shopcar .carnum{
+    width: 305px;
+    height: 417px;
+    border:1px solid #a000;
+    display:none;
+}
+
+
+
+#main #header_up{
+    
+    width: 100%;
+    height: 40px; 
+    line-height: 37px;
+    height: 37px;
+   
+}
+/*头部上部分左边区域*/
+
+
+#main #header_up .header_l span{
+    width: 108px;
+    display: inline;
+     color: #b4b4b4;
+    
+}
+#main #header_up .header_l span a{
+    color: #333;
+    text-decoration: none;
+    cursor:pointer;
+}
+/*头部上部分右边区域*/
+#main #header_up .header_r{
+     display: inline;
+     color: #b4b4b4;
+}
+#main #header_up .header_r span{
+    color:red;
+}
+
+
+/*头部上部分右边区域*/
+
+.header_c{
+    height: 34px;
+    border: 1px solid #C7CACD; 
+    height: 34px;
+    line-height:34px;
+     margin-bottom:20px;
+}
+.header_c span:nth-of-type(1){
+        display:inline-block;
+        width: 66px;
+        height: 100%;
+        border-right: 1px solid #C7CACD;
+        text-align: center;
+    }
+
+.header_c span:nth-of-type(2){
+        display:inline-block;;
+        width: 66px;
+        height: 100%;
+        text-align: center;
+    }
+.header_c span:nth-of-type(2) em{
+    color: #b4b4b4;
+}
+
+/*底部header_bottom*/
+.header_bottom .BOx{
+    width: 1013px;
+}
+.header_bottom .header_bottom_up{
+   
+    height: 40px;
+    line-height: 40px;
+    border-bottom:2px solid #b81c22;
+}
+.header_bottom .header_bottom_l{
+    display:inline-block;
+    width: 60px;
+    height: 100%;
+    text-align: center;
+    background: #b81c22;
+    color:#fff;
+}
+
+.header_bottom .header_bottom_r{
+ height: 40px;
+ width: 160px;
+}
+
+.header_bottom .header_bottom_r.yema{
+ height: 40px;
+}
+.header_bottom .header_bottom_r .btn{
+    margin-left: 12px;
+    cursor: pointer;
+    height: 17px;
+    border:1px solid #ccc;
+    border-radius: 3px;
+    padding:0 3px;
+}
+.header_bottom .BOx .black2{
+    clear:both;
+    height: 0;
+}
+.header_bottom .header_bottom_down{
+    height: 40px;
+    border:1px solid #ccc;
+}
+
+.header_bottom .header_bottom_down a{
+    display:inline-block;
+    text-decoration: none;
+    color:#656565;
+    padding:0 30px 0 15px;
+    line-height: 40px;
+    height: 40px;
+    text-align: center;
+    border-right: 1px solid #ccc ;
+    position:relative;
+     background:url('../img/goodlist/jt.png') no-repeat 82% 57%;
+}
+.header_bottom .header_bottom_down a span{
+    display:inline-block;
+    width: 30px;
+    height: 10px;
+    border:1px solid #ccc;
+
+}
+/*未完成---------------------------*/
+.header_bottom .header_bottom_down a em{
+    display:none;
+    padding:0 15px;
+    height: 20px;
+    line-height: 20px;
+    border:1px solid #ccc;
+    position:absolute;
+    top:112%;
+    /*left:67%;*/
+}
+
+/*吸顶样式*/
+.fix{
+    background-color: white; z-index: 80; position: fixed; top: 0px;
+}
+
+.black{
+
+    width: 100%;
+    height: 15px;
+    line-height: 0px;
+    font-size: 0px;
+    clear: both;
+    
+}
+/*渲染商品列表*/
+
+    #goodlists #goodlist li{
+        float:left;
+        width: 182px;
+        height: 328px;
+        margin-right: 20px;
+        /*z-index: 0;*/
+        position:relative;
+
+    }
+    #goodlist  li .pic{
+        width: 182px;
+        height: 230px;
+        position: relative;
+    }
+    #goodlist  li .box{
+        /*z-index:0;*/
+       
+
+    }
+      #goodlist  li .GOOD_add{
+        position:absolute;
+        right:0;
+        bottom:18px;
+        width: 60px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 6px;
+        color:#000;
+        background:pink;
+        cursor:pointer;
+      }
+    #goodlist  li .pic .blockimg{
+        width: 182px;
+        height: 230px;
+      
+        
+    }
+
+    #goodlist  li .goodname{
+        margin-top: 10px;
+        padding: 0px 3px 5px;
+        line-height: 20px;
+        text-align: center;
+        font-size: 13px;
+        font-family: "Microsoft YaHei";
+        height: 38px;
+        overflow: hidden;
+        color: #727171;
+
+        
+    }
+    #goodlist  li .price{
+        width: 100%;
+        padding: 0px 3px 5px;
+        height:20px;
+        line-height: 20px;
+        text-align: left;
+        font-size: 13px;
+        font-family: "Microsoft YaHei";
+       color: #b81c22;
+       font-weight: bold;
+       
+    }
+
+    #goodlist  li .pic .none{
+        border:1px solid #000;
+        padding:10px 10px;
+        z-index: 10;
+        width: 250px;
+        background:#fff;
+        text-align: center;
+        
+    }
+    #goodlist  li .pic .showleft{
+        position:absolute;
+        left:-280px;
+        top:-30px;
+      
+    }
+    #goodlist  li .pic .showright{
+        position:absolute;
+        left:200px;
+        top:-30px;
+        
+    }
+    #goodlist  li .pic .none img{
+        width: 182px;
+        height: 230px;    
+    }
+
+    #goodlist  li .none .goodname{
+        margin-top: 10px;
+        padding: 0px 3px 5px;
+        line-height: 20px;
+        text-align: center;
+        font-size: 13px;
+        font-family: "Microsoft YaHei";
+        height: 38px;
+        color: #000;
+    }
+    
+    #goodlist  li .none .price{
+        width: 100%;
+        padding: 0px 3px 5px;
+        height:20px;
+        line-height: 20px; 
+        font-size: 13px;
+        font-family: "Microsoft YaHei";
+       color: #b81c22;
+       font-weight: bold;
+    }
+
+    #goodlist  li .none .id{
+        width: 100%;
+        padding: 0px 3px 5px;
+        height:20px;
+        line-height: 20px;
+        font-size: 13px;
+        font-family: "Microsoft YaHei";
+       color: #000;
+       
+    }
+
+   #goodlists #bottom_page span:nth-of-type(1),#goodlists #bottom_page span:nth-of-type(3){
+        padding:2px 5px;
+        border:1px solid #000;
+
+   }
+  #goodlists #bottom_page  input:nth-of-type(1){
+        width: 30px;
+       border:1px solid #000;
+  }
+   #goodlists #bottom_page  input:nth-of-type(2){
+       padding:0 3px;
+       border:1px solid #000;
+       border-radius: 3px;
+       cursor: pointer;
+       background:red;
+       color:#fff;
+  }
+   #goodlists #bottom_page .page1 span{
+        padding:2px 5px;
+        border:1px solid #000;
+   }
+ /*下一页显示高亮*/
+ .active{
+    background:red;
+ }
+
+ .TO_SHOPcar{
+    position:fixed;
+    right:0;
+    bottom:150px;
+    height: 60px;
+    width: 70px;
+    background:url('../img/goodlist/SHOPCAR.jpg') no-repeat;
+    background-size: cover;
+
+ }
+ 
+ .TO_SHOPcar p{
+    font-size: 30px;
+     width: 70px;
+    height: 60px;
+    line-height:  60px;
+    color:red;
+    font-weight: 999;
+    text-align: center;
+ }
+
+
+
+
+
+    
+
+    
+
+
+
+

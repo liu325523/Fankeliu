@@ -1,0 +1,238 @@
+@charset "UTF-8";
+.header {
+  height: 168px; }
+  .header #headerTopp #headertop {
+    margin: center;
+    width: 442px;
+    background: #F7F7F7;
+    float: right;
+    font-size: 12px;
+    font-family: "宋体";
+    line-height: 32px;
+    height: 32px;
+    color: #808080;
+    position: relative; }
+    .header #headerTopp #headertop span a {
+      display: inline-block;
+      font-size: 12px;
+      font-family: "宋体";
+      line-height: 32px;
+      height: 32px;
+      padding: 0 20px;
+      color: #808080; }
+    .header #headerTopp #headertop .laba a {
+      position: relative; }
+      .header #headerTopp #headertop .laba a i {
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        background: url(http://i4.vanclimg.com/cms/20160912/notice.png) no-repeat;
+        background-size: cover; }
+    .header #headerTopp #headertop .lr .login {
+      padding: 0 12px;
+      background: url("../img/headertop_slider.png") no-repeat right; }
+    .header #headerTopp #headertop .lr .regist {
+      padding: 0 10px; }
+    .header #headerTopp #headertop .weixin {
+      width: 15px;
+      height: 28px; }
+      .header #headerTopp #headertop .weixin .vweixin {
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        background: url(http://i1.vanclimg.com/cms/20150605/w1.jpg) no-repeat;
+        background-size: contain;
+        position: absolute;
+        right: -18px;
+        top: 50%;
+        transform: translateY(-50%); }
+      .header #headerTopp #headertop .weixin .vweixinTip {
+        display: inline-block;
+        position: absolute;
+        width: 148px;
+        height: 169px;
+        right: 0px;
+        top: 28px;
+        border: 1px solid #e5e5e5;
+        background: url(http://i2.vanclimg.com/header/20130116/weixin.png) no-repeat;
+        background-size: cover;
+        display: none;
+        cursor: pointer;
+        z-index: 10000; }
+    .header #headerTopp #headertop .vweibo {
+      display: inline-block;
+      width: 15px;
+      height: 15px;
+      background: url(http://i2.vanclimg.com/cms/20150605/w2.jpg) no-repeat;
+      background-size: cover;
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%); }
+  .header #headerTopp .headerserch {
+    height: 30px;
+    padding-top: 23px; }
+    .header #headerTopp .headerserch .headerserchbox {
+      width: 435px; }
+      .header #headerTopp .headerserch .headerserchbox form .searchmes {
+        width: 239px;
+        height: 27px;
+        padding: 0px 5px;
+        line-height: 27px;
+        border: 1px solid #c9caca;
+        font-size: 12px;
+        font-family: "宋体";
+        color: #333; }
+      .header #headerTopp .headerserch .headerserchbox form .search {
+        width: 49px;
+        height: 29px;
+        border: none;
+        cursor: pointer;
+        background: url(http://i2.vanclimg.com/cms/20150228/vanclsprite.png) no-repeat scroll -100px 0px; }
+      .header #headerTopp .headerserch .headerserchbox .shopcar {
+        width: 105px;
+        height: 27px;
+        border: 1px solid #c1383e;
+        background: url(http://i2.vanclimg.com/cms/20150228/vanclsprite.png) no-repeat scroll -154px 0px;
+        position: relative;
+        z-index: 10;
+        float: right; }
+        .header #headerTopp .headerserch .headerserchbox .shopcar a {
+          display: block;
+          padding-left: 29px;
+          padding-top: 6px;
+          font-size: 12px;
+          color: #ffffff; }
+  .header #headerTopp .headerhotserch p {
+    font-size: 10px;
+    line-height: 24px;
+    height: 24px;
+    color: #727171; }
+    .header #headerTopp .headerhotserch p a {
+      padding: 0 5px;
+      text-decoration: none;
+      line-height: 18px;
+      color: #727171; }
+  .header .headernav {
+    background: url(http://i4.vanclimg.com/cms/20160923/logo18546.png) no-repeat left top; }
+    .header .headernav .out {
+      float: right; }
+      .header .headernav .out > li {
+        float: left;
+        width: 83px;
+        line-height: 22px;
+        padding: 0px 0px 10px;
+        margin: 22px 0 26px 0;
+        text-align: center;
+        font-size: 16px;
+        font-family: "Microsoft YaHei";
+        position: relative; }
+        .header .headernav .out > li a {
+          color: #727171; }
+        .header .headernav .out > li span {
+          display: block;
+          height: 16px;
+          width: 1px;
+          border-right: solid 1px #888;
+          position: absolute;
+          right: 1px;
+          top: 5px;
+          overflow: hidden; }
+        .header .headernav .out > li i {
+          display: block;
+          width: 25px;
+          height: 13px;
+          background: url(http://i3.vanclimg.com/cms/20170329/icon_hot.png) no-repeat scroll;
+          position: absolute;
+          left: 57px;
+          top: -10px; }
+        .header .headernav .out > li .hover {
+          display: none;
+          border-top: 5px solid #B81C22;
+          width: 83px;
+          background: #fff;
+          position: absolute;
+          left: -2px;
+          top: 30px; }
+          .header .headernav .out > li .hover .in li {
+            text-align: center;
+            line-height: 35px;
+            font-size: 16px; }
+
+#box {
+  height: 535px;
+  margin: center;
+  position: relative;
+  overflow: hidden;
+  /*焦点样式*/
+  /*左右按钮样式*/ }
+  #box #imglist {
+    height: 535px; }
+    #box #imglist ul li {
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 535px;
+      width: 100%;
+      z-index: 0; }
+    #box #imglist li:nth-of-type(1) {
+      background: url("../img/lunbotu1.jpg") no-repeat;
+      background-size: cover; }
+    #box #imglist li:nth-of-type(2) {
+      background: url("../img/lunbotu2.jpg") no-repeat;
+      background-size: cover; }
+    #box #imglist li:nth-of-type(3) {
+      background: url("../img/lunbotu3.jpg") no-repeat;
+      background-size: cover; }
+    #box #imglist li:nth-of-type(4) {
+      background: url("../img/lunbotu4.jpg") no-repeat;
+      background-size: cover; }
+    #box #imglist li:nth-of-type(5) {
+      background: url("../img/lunbotu5.jpg") no-repeat;
+      background-size: cover; }
+    #box #imglist li:nth-of-type(6) {
+      background: url("../img/lunbotu6.jpg") no-repeat;
+      background-size: cover; }
+    #box #imglist li:nth-of-type(7) {
+      background: url("../img/lunbotu7.jpg") no-repeat;
+      background-size: cover; }
+  #box #light {
+    width: 140px;
+    height: 12px;
+    position: absolute;
+    right: 46%;
+    top: 500px; }
+    #box #light span {
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      border-radius: 12px;
+      background: #dddddd; }
+    #box #light span.active {
+      background: #a10000; }
+  #box #posibtn {
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%); }
+    #box #posibtn p {
+      height: 60px;
+      width: 28px;
+      position: absolute;
+      cursor: pointer; }
+    #box #posibtn p::selection {
+      background: transparent; }
+    #box #posibtn p:nth-child(1) {
+      background: url(http://i3.vanclimg.com/cms/20160918/focus_lr0918.png) no-repeat;
+      left: 10px; }
+    #box #posibtn p:nth-child(2) {
+      background: url(http://i3.vanclimg.com/cms/20160918/focus_lr0918.png) no-repeat scroll -52px 0;
+      right: 10px; }
+
+/*# sourceMappingURL=headertop.css.map */

@@ -1,0 +1,607 @@
+/* 
+* @Author: Marte
+* @Date:   2018-11-28 15:03:45
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-11-30 14:46:07
+*/
+body {
+    font-size: 12px;
+    font-family: "宋体";
+    color: #333;
+}
+.black{
+        clear: both;
+    display: block;
+    font-size: 0;
+    height: 10px;
+}
+
+/*详情页头部导航上半区域*/
+#breadNav .breadNav_up{
+    color: #000;
+    height: 22px;
+    } 
+ #breadNav .breadNav_up a{
+        text-decoration: none;
+        color: #333;
+    } 
+/*详情页头部导航下半区域*/
+ #breadNav .breadNav_down{
+     height: 45px;
+    border-bottom: 1px solid #e5e6e6;
+    min-width: 980px;
+ }   
+
+/*详情页头部导航下半区域*/
+ #breadNav .breadNav_down .styleinfo{
+    margin-left: 10px;
+    float: left;
+    margin-right: 10px;
+    line-height: 45px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Microsoft YaHei";
+ }
+
+/**详情页头部导航下半区域左边*/
+
+
+#breadNav .breadNav_down_r{
+
+ height: 45px;
+}
+
+#breadNav .breadNav_down_r li{
+ float:left;
+ color: #808080;
+height: 45px;
+margin: 0 10px 0 0;
+}
+
+#breadNav .breadNav_down_r li a{
+    display: inline-block;
+    padding: 0px 15px 0px 0px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 12px;
+    color: #808080;
+    text-decoration: none;
+}
+
+.blank30 {
+    display: block;
+    width: 100%;
+    height: 30px;
+    line-height: 0px;
+    font-size: 0px;
+    clear: both;
+    overflow: hidden;
+}
+
+/*详情页内容渲染部分*/
+.main_contant{
+    padding-bottom:30px;
+    border-bottom: 1px solid #e5e6e6;
+}
+.main_contant>div{
+    float:left;
+}
+
+
+.main_contant #MagnifierWrap2 {
+    position: relative;
+    width: 350px;
+    margin: 5px 20px;
+    z-index: 2;
+    
+}
+
+.MagnifierMain {
+    position: relative;
+    width: 350px;
+    height: 350px;
+}
+
+.MagnifierMain img {
+    width: 100%;
+}
+
+.MagnifierDrag {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ccc;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    cursor: move;
+}
+
+.MagnifierPop {
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    background: #fff url(http://fan.yoka.com/fan5.0/img/loading.gif) no-repeat center center;
+}
+
+.MagnifierImg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.spec-items {
+    position: relative;
+    width: 292px;
+    height: 69px;
+    overflow: hidden;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+.spec-items ul {
+    width: 500%;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+.spec-items ul * {
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+.spec-items li {
+    width: 65px;
+    height: 65px;
+    float: left;
+    overflow: hidden;
+    margin-right: 5px;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+.spec-items li.on {
+    border: 2px solid #000;
+}
+
+.spec-items li img {
+    width: 100%;
+}
+
+span.spe_leftBtn,
+span.spe_rightBtn {
+    position: absolute;
+    bottom: 0px;
+    display: block;
+    width: 20px;
+    height: 69px;
+    line-height: 69px;
+    font-family: "黑体";
+    text-align: center;
+    font-size: 30px;
+    color: #ddd;
+    cursor: default;
+    background-color: #f9f9f9;
+}
+
+span.on {
+    background-color: #ccc;
+    color: #999;
+    cursor: pointer;
+}
+
+span.spe_leftBtn {
+    left: 0;
+}
+
+span.spe_rightBtn {
+    right: 0;
+}
+
+
+/*.main_contant .smallimg img{
+    display: inline-block;
+    width: 68px;
+    height: 68px;
+    border: 1px solid #a10000;
+    margin-top: 7px;
+}
+
+.main_contant .bigimg{
+    width: 400px;
+    height: 400px;
+    margin-top: 7px;
+    overflow: hidden;
+    border: 1px solid #e5e6e6;
+    margin: 0 80px;
+}*/
+
+
+
+
+
+/*内容部分*/
+.main_contant .contain{
+    width: 300px;
+
+}   
+
+.main_contant  .contain .tehuiMoney{
+    line-height: 26px;
+    color: #A10000;
+}
+.main_contant  .contain .colorselect {
+    overflow:hidden;
+}
+.main_contant  .contain .colorselect .colora{
+    border: 1px solid #B4B4B4;
+    display: inline;
+    float: left;
+    height: 40px;
+    margin: 0px 8px 8px 0px;
+    width: 95px;
+    position: relative;
+}
+.main_contant  .contain .colorselect .colora img{
+    height: 40px;
+    width: 95px;
+}
+.main_contant  .contain .colorselect .colorA{
+    padding-right: 20px;
+} 
+
+/*尺寸size*/
+.main_contant  .contain .size{
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+}
+.main_contant  .contain .size span{
+    display:inline-block;
+    width: 40px;
+    height: 30px;
+    line-height: 30px;
+
+}
+.main_contant  .contain .sizeall{
+display:inline-block;
+
+}
+.main_contant  .contain .sizeall li{
+ 
+    font-size: 10px;
+    line-height: 30px;
+    float: left;
+    height: 30px;
+    border: 1px solid #C8C8C8;
+    width: 35px; 
+    margin-right: 5px;
+    margin-bottom: 5px;  
+    text-align: center;
+}
+.main_contant  .contain .sizeall li a{
+    display:inline-block;
+    color: #333333;
+    cursor: pointer;
+    height: 30px;
+    line-height: 30px;
+    text-decoration: none; 
+}
+
+.main_contant  .contain .num{
+    margin-top:10px;
+    height: 30px;
+    width: 100px;
+    margin: 10px 8px 8px 0px;
+}
+
+.main_contant  .contain .no{
+   border: 1px solid #CC9998;
+    width: 170px;
+    height: 20px;
+    margin:15px 0 10px 36px;
+    line-height: 19px;
+    text-align: center;
+     color: #a10000;
+     display:none;
+    margin-bottom: 5px; 
+}
+
+.main_contant  .contain .num .selectnum{
+    width: 50px;
+    text-align: center;
+    margin-left:8px;
+}
+.main_contant  .contain .buy{
+    height: 20px;
+   margin-top:10px;
+} 
+.main_contant  .contain .buy span{
+    display:inline-block;
+    width: 130px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+.main_contant  .contain .buy span:nth-of-type(1){
+    color: #A50309;
+    margin-right: 20px;
+    background: #F7ABAF;
+}
+.main_contant  .contain .buy span:nth-of-type(2){
+     background: red;
+     color:#fff;
+
+}
+.main_contant  .contain .youhui{
+
+}
+.main_contant  .contain .youhui h2{
+    height: 4px;
+    line-height: 14px;
+    margin-bottom: 6px;
+    color: #a20000;
+    font-weight: bold;
+    border-bottom: 1px solid #a20000;
+    margin-top: 20px;
+    text-align: center;
+
+}
+.main_contant  .contain .youhui h2 span{
+    padding:0 5px;
+    background:#fff;
+}
+.main_contant  .contain .youhui p{
+     border-bottom: 1px solid #a20000;
+     padding-bottom: 5px;
+}
+.main_contant  .contain .youhui p span:nth-of-type(1){
+    width: auto;
+    height: 16px;
+    background: #b81c22;
+    margin: 4px 5px 0 0;
+    color: #fff;
+    line-height: 16px;
+    text-align: center;
+    padding: 0 5px;
+}
+
+/*隐藏的购物车*/
+.shopcar{
+   
+    height: 295px;
+    top: 532px;
+    cursor: pointer;
+    width: 498px;
+    border: 1px solid #b81b22;
+    background-color: #FFFFFF;
+    left: 573px;
+    position: absolute;
+    z-index: 20000;
+    padding-bottom: 70px;
+    overflow: hidden;
+    display:none;
+}
+.shopcar .success{
+ width: 100%;
+  background: #b81b22;
+}
+.shopcar .success span:nth-of-type(1){
+    display:inline-block;
+    height:42px;
+    width: 70%;
+    padding-left: 30px;
+    line-height: 42px;
+    font-size: 16px;
+    color: #ffffff;
+}
+.shopcar .success span:nth-of-type(2){
+    float:right;
+    display:inline-block;
+    height:42px;
+    width: 16px;
+    margin-right: 27px;
+    line-height: 42px;
+    font-size: 27px;
+    color: #ffffff;
+}
+.shopcar .CarBox_Content{
+    height: 95px;
+    margin: 0px 28px;
+    border-bottom: 1px dotted #727171;
+}
+.shopcar .black31{
+    display:block;
+    height: 20px;
+    width: 498px;
+}
+.shopcar .CarBox_Content .CarBox_bg{
+    float: left;
+    width: 74px;
+    height: 74px;
+    padding-right: 18px;
+    background:url(../img/datail/shopcar.png ) no-repeat;
+}
+.shopcar .CarBox_Content .CarBox_NumPrice{
+    width: 180px;
+}
+.shopcar .CarBox_Content .CarBox_NumPrice .total{
+    width: 158px;
+    padding-top: 14px;
+}
+.shopcar .CarBox_Content .CarBox_NumPrice .total p span{
+     margin: 0px 3px;
+    display: block;
+    float: left;
+    line-height: 22px;
+    font-size: 14px;
+    color: #000000;
+}
+.shopcar .CarBox_Content .CarBox_NumPrice .total p #shopcarcount{
+    color: #b81c22;
+    }     
+.shopcar .CarBox_Content .CarBox_NumPrice .total p #shopcarprice{
+    color: #b81c22;
+}
+.shopcar .CarBox_Content .CarBox_Btn{
+    float: right;
+    padding-top: 19px;
+}
+.shopcar .CarBox_Content .CarBox_Btn .CarBox_goCar,.shopcar .CarBox_Content .CarBox_Btn #continueshop{
+    display:inline-block;
+    height: 32px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    
+    text-align: center;
+    line-height: 32px;
+}
+.shopcar .CarBox_Content .CarBox_Btn #continueshop{
+    background: #efefef;
+     color: #727171;
+}
+.shopcar .CarBox_Content .CarBox_Btn .CarBox_goCar{
+    
+    background: #b81c22;
+    color: #ffffff;
+    width: 84px;   
+}
+
+/*购物车推荐产品区域 */
+
+.message .tuijian{
+        width: 190px;
+        float: left;
+        border: 1px solid #b4b4b4;
+        text-align: center;
+}
+.shopcar .tuijiangoods{
+    width: 460px;
+    height: auto;
+    margin: 0px 28px;
+}
+    
+.shopcar .tuijiangoods h2{
+    width: 445px;
+    height: 32px;
+    line-height: 32px;
+    color: #999999;
+}
+  
+.shopcar .tuijiangoods ul li{
+    width: 73px;
+    height: 154px;
+    float: left;
+    display: inline;
+    margin-right: 19px;
+}
+.shopcar .tuijiangoods ul li img{
+    width: 73px;
+    height: 72px;
+}
+.shopcar .tuijiangoods ul li h3{
+    color: #333;
+    text-decoration: none;
+    
+}    
+.shopcar .tuijiangoods ul li h4{
+   
+    color: #a10000;
+    margin-top: 5px;
+}    
+
+
+
+/*商品图片系列*/
+
+.imgs .zhushi h2{
+    color: #999999;
+    font-weight: bold;
+    position: relative;
+    width: 748px;
+    margin-top:30px;
+} 
+
+.imgs .zhushi p{
+    color: #999999;
+    margin:10px 0;
+    position: relative;
+    width: 748px;
+} 
+.imgs .zhushi img{
+    text-align: center;
+}
+
+/*留言和推荐产品区域*/
+.message .tuijian{
+        width: 190px;
+        float: left;
+        border: 1px solid #b4b4b4;
+        text-align: center;
+}
+.message .tuijian h2{
+    height: 40px;
+    line-height: 40px;
+    /*padding: 0px 0px 0px 25px;*/
+    border-bottom: 1px solid #b4b4b4;
+}
+.message .tuijian ul{
+    margin: 25px auto;
+    width: 70%;
+}    
+.message .tuijian ul li{
+    width: 130px;
+    height: 200px;
+    margin-bottom: 18px;
+     text-align: center;
+}
+.message .tuijian ul li img{
+    width: 130px;
+}
+.message .tuijian ul li h3{
+    line-height: 20px;
+    color: #808080;
+    
+}    
+.message .tuijian ul li h4{
+   
+    color: #a10000;
+    font-weight: bold;
+}    
+
+/*.message .pinglun{
+    width: 980px;
+    padding: 0px; 
+}*/
+
+.message .pinglun{
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 0px 0px 25px;
+    border-bottom: 1px solid #bbb;
+}
+
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+   
